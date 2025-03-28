@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(rgba(7, 250, 226, 0.7), rgba(98, 98, 98, 0.7)), url("./images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1abc9c;
+    color: white;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    font-weight: 300;
+}
+
+section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 3px solid #1abc9c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.tech-skills {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-item {
+    text-align: center;
+}
+
+.skill-item img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.skill-item img:hover {
+    transform: translateX(10%);
+}
+
+.soft-skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.soft-skills li {
+    background-color: #1abc9c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.soft-skills li:hover {
+    background-color: #16a085;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
